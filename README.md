@@ -5,6 +5,6 @@ Depends on Googles libwebp library: https://developers.google.com/speed/webp/doc
 
 Usage:
 In terminal navigate to the folder images are contained in.
-Run wep_converter.py
+Run wep_converter.py - It can be placed and run from any directory and uses the current working directory as the folder it will work in.
 An error will be given by the webp library if an attempt is made to convert a file that is not supported, the program will continue running and 
-converting the other files in the directory
+converting the other files in the directory.
